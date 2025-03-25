@@ -1,0 +1,3 @@
+npm install -g localtunnel 
+curl https://loca.lt/mytunnelpassword
+lt --port 5000
