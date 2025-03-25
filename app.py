@@ -7,6 +7,8 @@ import hashlib
 from twilio.rest import Client
 
 from twilio.base.exceptions import TwilioRestException
+from dotenv import load_dotenv
+load_dotenv()
 
 app = Flask(__name__)
 CORS(app)  # Allow cross-origin requests
