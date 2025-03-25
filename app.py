@@ -67,6 +67,8 @@ def signup():
 
         # Hash password using bcrypt
         password = data['password']
+        if not phone.startswith("+91"):
+            phone = "+91" + phone
 
         # Check if user already exists (e.g., by phone)
         if users_collection.find_one({'phone': phone}):
