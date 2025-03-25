@@ -12,7 +12,7 @@ load_dotenv()
 
 app = Flask(__name__)
 CORS(app)  # Allow cross-origin requests
-app.config['JWT_SECRET_KEY'] = 'your_secret_key'
+app.config['JWT_SECRET_KEY'] = 'woman_safety_app'
 jwt = JWTManager(app)
 
 # MongoDB Connection
