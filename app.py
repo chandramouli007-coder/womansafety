@@ -5,6 +5,7 @@ from pymongo import MongoClient
 import bcrypt
 import hashlib
 from twilio.rest import Client
+import os
 
 from twilio.base.exceptions import TwilioRestException
 from dotenv import load_dotenv
