@@ -20,7 +20,8 @@ users_collection = db["users"]
 
 
 
-
+TWILIO_ACCOUNT_SID = 'AC58fcb829952cfd65ca811ff2a3e6829d'
+TWILIO_AUTH_TOKEN = 'e98e11b974cbb25aeabd5897524ff242'
 TWILIO_PHONE_NUMBER = '+12293215279'
 twilio_client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
